@@ -12,7 +12,7 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    character = (Character*)[CCBReader load:character];
+    character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
 }
 
