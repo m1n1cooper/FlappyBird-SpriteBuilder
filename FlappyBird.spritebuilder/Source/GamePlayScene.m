@@ -14,6 +14,7 @@
     // put update code here
     character = (Character*)[CCBReader load:@"character"];
     [physicsNode addChild:character];
+    [self addObstacle];
 }
 
 // put new methods here
